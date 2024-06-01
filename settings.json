@@ -24,9 +24,9 @@
     "behindProxy": false,
     "host": "127.0.0.1",
     "https": {
-      "certPath": "",
-      "enabled": false,
-      "keyPath": ""
+      "certPath": "/data/caddy/pki/authorities/local/intermediate.crt",
+      "enabled": true,
+      "keyPath": "/data/caddy/pki/authorities/local/intermediate.key"
     },
     "port": 8080,
     "relativePath": "/"
